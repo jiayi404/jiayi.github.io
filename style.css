@@ -1,0 +1,92 @@
+body{
+	background-color:#607EAA;
+	font-size: 20px;
+	font-weight: lighter;
+	font-family: 'Noto Serif SC', serif;
+
+	
+}
+.container{
+	width: 700px;
+	margin: 40px auto;
+
+}
+.card-design{
+	background-color:#a9bcd0;
+	padding: 30px;
+	margin: 40px 0px;
+	box-shadow: 0px 10px 30px rgba(100, 100, 150,0.1);
+	border-radius: 4px;
+	text-align: center;
+}
+.img-circle{
+	border-radius: 50%;
+}
+}
+h1{
+	color: #373f51;
+	font-size: 80px;
+	line-height: ;
+    font-family: 'Ma Shan Zheng', cursive;
+}
+
+h2,h3,h4{
+    font-size: 60px
+}
+h2{
+	color:#FFB3B3;
+}
+
+h3{
+	color: #355764;
+}
+
+h4{
+	color: #607EAA;
+}
+a{
+	text-decoration: none;
+
+}
+
+
+.btn-blue{
+	background-color: #607EAA;
+	color: white;
+	padding: 15px 20px;
+	border-radius: 4px;
+}
+
+
+.btn-blue:hover{
+	color: black ;
+}
+
+
+.list-inline{
+list-style: none;
+padding-left: 0px;
+}
+.list-inline li{
+ display: inline;
+ padding: 0px 10px;
+}
+.list-inline i{
+ font-size: 50px;
+ color:rgb(230, 230, 230) ;
+ }
+ .list-inline i:hover{
+ color: #607EAA
+ }
+
+ @media(max-width: 700px){
+ 	.container{
+ 		width: 500px;
+ 	}
+ }
+
+ @media(max-width: 500px){
+ 	.container{
+ 		width: 300px;
+ 	}
+ }
